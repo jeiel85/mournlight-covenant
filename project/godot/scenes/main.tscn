@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3 uid="uid://mlc_main"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_main"]
+[ext_resource type="PackedScene" path="res://scenes/prototype/combat_sandbox.tscn" id="2_sandbox"]
+[ext_resource type="PackedScene" path="res://scenes/ui/ledger_result_view.tscn" id="3_ledger"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_main")
+sandbox_scene = ExtResource("2_sandbox")
+ledger_result_scene = ExtResource("3_ledger")

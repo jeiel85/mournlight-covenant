@@ -153,9 +153,13 @@ mournlight-covenant/
   marketing/
     keyart/
   project/
-    godot_placeholder/
+    godot/
+      project.godot
+      scenes/
+      scripts/
   tools/
     balance_simulator/
+    data_validator/
 ```
 
 ## Documentation
@@ -170,6 +174,16 @@ mournlight-covenant/
 ## GitHub Pages
 
 GitHub Pages용 정적 사이트는 [`docs/index.html`](docs/index.html)에 있습니다. 저장소 설정에서 Pages source를 `main` 브랜치의 `/docs` 폴더로 지정하면 공개 페이지로 사용할 수 있습니다.
+
+## Prototype Quick Start
+
+Godot 4.x에서 `project/godot/project.godot` 파일을 열면 현재 전투 샌드박스와 World Ledger 결과 패널을 확인할 수 있습니다.
+
+```powershell
+python tools/data_validator/validate_data.py
+```
+
+현재 데이터 검증기는 세력/지역 참조, 오멘 위험도와 저항 상한, 무기 레벨 구조를 확인합니다.
 
 ## Legal Note
 

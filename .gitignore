@@ -10,6 +10,10 @@ Thumbs.db
 .git-meta-test/
 .git.broken-*/
 
+# Python
+__pycache__/
+*.py[cod]
+
 # Build outputs
 builds/
 exports/

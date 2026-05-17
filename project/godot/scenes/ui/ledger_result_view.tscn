@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://mlc_ledger_result_view"]
+
+[ext_resource type="Script" path="res://scripts/ui/ledger_result_view.gd" id="1_ledger_ui"]
+
+[node name="LedgerResultView" type="CanvasLayer"]
+script = ExtResource("1_ledger_ui")
+
+[node name="Panel" type="PanelContainer" parent="."]
+offset_left = 760.0
+offset_top = 32.0
+offset_right = 1248.0
+offset_bottom = 280.0
+
+[node name="Margin" type="MarginContainer" parent="Panel"]
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 18
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 18
+
+[node name="Lines" type="VBoxContainer" parent="Panel/Margin"]
+
+[node name="Title" type="Label" parent="Panel/Margin/Lines"]
+text = "World Ledger"
+
+[node name="Summary" type="RichTextLabel" parent="Panel/Margin/Lines"]
+custom_minimum_size = Vector2(430, 160)
+bbcode_enabled = true
+fit_content = true
+text = "Run a prototype session to generate ledger memory."
