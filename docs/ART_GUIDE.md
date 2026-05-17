@@ -45,3 +45,13 @@
 - 주변에 5개 세력 실루엣.
 - 하늘에 룬 장부 형태의 빛나는 기록.
 - 바닥에 전투 흔적: 깨진 검, 독 꽃, 재, 동전, 검은 가시.
+
+## Concept Asset Library
+
+기초 콘셉트 이미지는 `docs/img/concept/`에 보관한다. 세부 목록과 용도는 `docs/img/concept/ASSET_MANIFEST.md`를 기준으로 관리한다.
+
+현재 라이브러리는 다음 범주로 나뉜다.
+
+- `characters/`: Mourn Warden과 5개 세력 실루엣 레퍼런스.
+- `props/`: 장송등, 기억/정화 재화 레퍼런스.
+- `ui/`: 오멘 원형 프레임, Ledger 카드 프레임 레퍼런스.
