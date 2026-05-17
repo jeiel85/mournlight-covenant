@@ -1,0 +1,32 @@
+[
+  {
+    "id": "mourning_field",
+    "name": "Mourning Field",
+    "faction": "hollow_choir",
+    "gimmick": "bell wave"
+  },
+  {
+    "id": "briarwood",
+    "name": "Briarwood",
+    "faction": "thorn_court",
+    "gimmick": "vine terrain"
+  },
+  {
+    "id": "cinder_road",
+    "name": "Cinder Road",
+    "faction": "ashen_kin",
+    "gimmick": "fire cracks"
+  },
+  {
+    "id": "pale_bazaar",
+    "name": "Pale Bazaar",
+    "faction": "pale_market",
+    "gimmick": "cursed shop"
+  },
+  {
+    "id": "moonless_fen",
+    "name": "Moonless Fen",
+    "faction": "moonless_brood",
+    "gimmick": "limited vision"
+  }
+]

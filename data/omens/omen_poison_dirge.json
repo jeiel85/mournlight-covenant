@@ -1,0 +1,24 @@
+{
+  "id": "omen_poison_dirge",
+  "name_ko": "독의 장송가",
+  "name_en": "Poison Dirge",
+  "trigger": {
+    "dominant_damage_type": "poison",
+    "min_ratio": 0.45
+  },
+  "effects": [
+    {
+      "type": "enemy_resistance",
+      "damage_type": "poison",
+      "value": 0.25
+    },
+    {
+      "type": "reward_bias",
+      "tag": "poison_relic",
+      "value": 0.2
+    }
+  ],
+  "risk": 2,
+  "reward_multiplier": 1.15,
+  "hard_counter_allowed": false
+}

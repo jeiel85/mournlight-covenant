@@ -1,0 +1,19 @@
+# Godot
+.import/
+.godot/
+export.cfg
+export_presets.cfg
+
+# OS
+.DS_Store
+Thumbs.db
+.git-meta-test/
+.git.broken-*/
+
+# Build outputs
+builds/
+exports/
+*.apk
+*.aab
+*.exe
+*.zip

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "hollow_choir",
+    "name": "Hollow Choir",
+    "theme": "ghostly choir figures with bells",
+    "reaction": "sound waves and fear debuffs"
+  },
+  {
+    "id": "thorn_court",
+    "name": "Thorn Court",
+    "theme": "thorn-crowned plant nobles",
+    "reaction": "binds, bleeding, terrain interference"
+  },
+  {
+    "id": "ashen_kin",
+    "name": "Ashen Kin",
+    "theme": "ash-armored knights",
+    "reaction": "fire resistance and charge units"
+  },
+  {
+    "id": "pale_market",
+    "name": "Pale Market",
+    "theme": "masked dead merchants with coins",
+    "reaction": "price shifts and cursed goods"
+  },
+  {
+    "id": "moonless_brood",
+    "name": "Moonless Brood",
+    "theme": "low moonless beasts",
+    "reaction": "hunters and reduced vision"
+  }
+]

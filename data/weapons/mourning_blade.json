@@ -1,0 +1,32 @@
+{
+  "id": "mourning_blade",
+  "name_en": "Mourning Blade",
+  "name_ko": "애도의 검",
+  "role": "melee_balanced",
+  "levels": [
+    {
+      "level": 1,
+      "effect": "front_two_hit_combo"
+    },
+    {
+      "level": 2,
+      "effect": "range_plus_10_percent"
+    },
+    {
+      "level": 3,
+      "effect": "third_hit_moon_wave"
+    },
+    {
+      "level": 4,
+      "effect": "mourning_gain_on_kill_plus_1"
+    },
+    {
+      "level": 5,
+      "effect": "crit_plus_20_percent_after_dodge_1s"
+    }
+  ],
+  "evolutions": [
+    "saintbreaker",
+    "gravesong_edge"
+  ]
+}
